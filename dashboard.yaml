@@ -89,7 +89,7 @@ sections:
           - type: custom:bubble-card
             card_type: button
             button_type: state
-            entity: person.alice  # <--- UPDATE THIS ENTITY
+            entity: person.jimmy  # <--- UPDATE THIS ENTITY
             show_icon: true
             show_name: true
             tap_action:
@@ -413,4 +413,5 @@ background:
   size: cover
   repeat: repeat
   attachment: fixed
+
   image: /local/your-background-image.jpg
